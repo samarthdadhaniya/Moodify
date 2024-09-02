@@ -1,6 +1,7 @@
 import { Poppins } from "next/font/google";
 import React from 'react'
 import Button from "./Button";
+import Calendar from "./Calendar";
 
 const poppins = Poppins({ subsets: ["latin"], weight:['700'] });
 
@@ -17,6 +18,7 @@ export default function Hero() {
         <Button text="Sign Up" />
         <Button text="Log In" dark/>
       </div>
+      <Calendar />
     </div>
   )
 }
